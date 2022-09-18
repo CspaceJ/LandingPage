@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    margin: 20px 10%;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    margin: 20px, 10%;
+    min-width: 400px;
+    max-width: 1000px;
+    flex:auto
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    justify-content: right;
+    flex: auto;
+}
+
+a{
+    text-decoration: none;
+}
